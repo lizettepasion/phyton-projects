@@ -2,7 +2,7 @@ import random
 
 #1. Setting up
 name = "Liz"
-question = 'Will he come back?'
+question = 'Add random question?'
 answer = ""
 
 #2. Generating a random number
