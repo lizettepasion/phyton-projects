@@ -1,0 +1,13 @@
+weight = 69
+fee = 100
+# Write your if statement here:
+if weight == 70:
+  fee = 100
+elif weight >= 50 != 70:
+  fee = 50 
+else:
+  fee = 0
+# Uncomment the below lines to show the results
+print("The bag's weight is:", weight, "pounds.")
+
+print("The fee for the bag is: $", fee, "dollars.")
