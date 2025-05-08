@@ -6,7 +6,7 @@ question = 'Add random question?'
 answer = ""
 
 #2. Generating a random number
-random_number = random.randint(1, 9)
+random_number = random.randint(1, 10)
 print(random_number)
 
 #3. Control flow
@@ -26,7 +26,9 @@ elif random_number == 7:
   answer = 'My sources say no'
 elif random_number == 8:
   answer = 'Outlook not so good'
-if random_number == 9:
+elif random_number == 9:
+  answer = 'No lol'
+if random_number == 10:
    answer = 'Very doubtful'
 
 #3. Seeing the result
